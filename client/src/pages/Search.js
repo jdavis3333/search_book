@@ -41,8 +41,6 @@ const Books = () => {
 
     const saveBook = saveTitle => {
         console.log(books)
-        // const book = books.find((book) => book.title === saveTitle)
-        // console.log(book)
         let saveBookInfo = {}
         for (var i=0; i<books.length; i++){
             if(books[i].volumeInfo.title === saveTitle){
